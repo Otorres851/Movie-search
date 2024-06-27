@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const Movie = ({ id, poster, title, year }) => (
   <Link href={`/detail/[id]`} as={`/detail/${id}`}>
-    <div className="card">
-      <div className="card-image">
+    <div className="card border border-gray-300 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+      <div className="card-image flex items-center justify-center">
         <figure className="image">
           {poster && typeof poster === "string" && poster !== "N/A" ? (
             <div style={{ width: '300px', height: '450px', position: 'relative' }}>
@@ -19,15 +19,15 @@ const Movie = ({ id, poster, title, year }) => (
               />
             </div>
           ) : (
-            <p>No poster available</p>
+            <p className="flex items-center justify-center h-full bg-gray-200 text-gray-500">No poster available</p>
           )}
         </figure>
       </div>
-      <div className="card-content">
+      <div className="card-content p-4">
         <div className="media">
           <div className="media-content">
-            <p className="title is-4">{title}</p>
-            <p className="subtitle is-6">{year}</p>
+            <p className="text-lg font-semibold mb-2 text-center">{title}</p>
+            <p className="text-sm text-gray-600 text-center">{year}</p>
           </div>
         </div>
       </div>
