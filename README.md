@@ -23,8 +23,11 @@ This project is a movie search application built with Next.js, React, and Tailwi
 ```bash
 git clone https://github.com/Otorres851/Movie-search.git
 cd movies-app
+```
 
 2. Install the dependencies:
+
+```bash
 npm install
 # or
 yarn install
@@ -32,13 +35,17 @@ yarn install
 pnpm install
 # or
 bun install
+```
 
 3. Create a ".env.local" file in the root directory and add your OMDB API key:
 
+```bash
 NEXT_PUBLIC_API_KEY=your_omdb_api_key
+```
 
 4. Run the development server:
 
+```bash
 npm run dev
 # or
 yarn dev
@@ -78,7 +85,9 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ## 🔧 Environment Variables
 You need to set up the following environment variable in your .env.local file:
 
+```bash
 - NEXT_PUBLIC_API_KEY: Your OMDB API key.
+```
 
 ## 📚 Documentation 
 - [Next.js Documentation](https://nextjs.org/docs)
