@@ -93,6 +93,7 @@ You need to set up the following environment variable in your .env.local file:
 - [Next.js Documentation](https://nextjs.org/docs)
 - [React Documentation](https://legacy.reactjs.org/docs/getting-started.html)
 - [OMDB API Documentation](https://www.omdbapi.com/)
+- [TailwindCss Documentation](https://tailwindcss.com/docs/installation)
 
 ## Learn More
 
