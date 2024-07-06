@@ -1,4 +1,4 @@
-# 🎬 Movie Search Application
+# 🎬 Movie Search Application.
 
 This project is a movie search application built with Next.js, React, and Tailwind CSS. It utilizes the OMDB API to fetch movie data and display details.
 
